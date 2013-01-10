@@ -1,0 +1,3 @@
+NOTES
+*.beam
+ebin/rest_query.app

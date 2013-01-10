@@ -1,0 +1,14 @@
+{application, rest_query,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  inets
+                 ]},
+  {modules, [rest_query, rest_query_app, rest_query_instance, rest_query_sup]},
+  {mod, { rest_query_app, []}},
+  {env, []}
+ ]}.
